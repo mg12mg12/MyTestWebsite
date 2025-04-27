@@ -9,6 +9,7 @@ import AutoImport from 'unplugin-auto-import/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/your-repository/',  // 更新為你的 GitHub 儲存庫名稱
   plugins: [
     vue(),
     vueDevTools(),
